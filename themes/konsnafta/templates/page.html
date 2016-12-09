@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} - {{ super() }}{% endblock title %}
+{% block description %}{{ page.content|striptags|truncate(200)|escape }}{% endblock description %}
+
+{% block header %}
+{% include 'top-nav.html' %}
+{% endblock header %}
+
+{% block content %}
+<div class="row">
+    <div class="card">
+        <div class="card-block">
+            <h1 class="card-title">
+                {{ page.title }}
+            </h1>
+            <div class="card-text">
+                {{ page.content }}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
