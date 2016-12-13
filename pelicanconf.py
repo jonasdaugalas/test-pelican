@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Jonas'
 SITENAME = u'Dariuko'
+HTMLBASE = '/'
 SITEURL = ''
 DEFAULT_DATE = u'fs'
 
