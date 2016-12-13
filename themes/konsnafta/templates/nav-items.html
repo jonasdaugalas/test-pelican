@@ -1,5 +1,5 @@
 {% for cat, null in categories %}
-{% if (cat|string != "parts") %}
+{% if (cat|string != "index-cards") %}
 <li class="nav-item">
     <a href="{{SITEURL}}/{{cat.url}}"
        class="nav-link nav-text{% if cat == category %} active{% endif %}">

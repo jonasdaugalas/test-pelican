@@ -19,6 +19,7 @@
         <link href="{{ SITEURL }}/theme/bundle.min.css" rel="stylesheet">
         {% else %}
         <link rel="stylesheet" href="{{ SITEURL }}/theme/vendor/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/vendor/bootstrap/css/bootstrap-flex.min.css">
         <link rel="stylesheet" href="{{ SITEURL }}/theme/styles.css">
         {% endif %}
         <!-- /Stylesheets -->
@@ -66,14 +67,10 @@
 
     <!-- apply bootstrap table class to tables  -->
     <script>
-     var tables, images, i;
+     var tables, i;
      tables = document.getElementsByTagName('table');
      for (i=0;i<tables.length;i++) {
          tables[i].className = 'table table-bordered';
-     }
-     images = document.getElementsByTagName('img');
-     for (i=0;i<images.length;i++) {
-         images[i].className = 'rounded mx-auto d-bloc';
      }
     </script>
 </html>

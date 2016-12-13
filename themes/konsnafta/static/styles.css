@@ -25,6 +25,78 @@
     font-family: monospace;
 }
 
+.kn-btn-cta {
+    margin: 4rem;
+    /* color-primary-0 */
+    background-color: #00A06C;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+
+.kn-btn-cta:hover {
+    color: white;
+}
+
+.article-image {
+    display: block;
+}
+
+.kn-index-col {
+    padding: 3.5rem;
+}
+
+@media(min-width:769px){
+    .kn-index-col + .kn-index-col:after {
+        content: "";
+        background: #ccc;
+        position: absolute;
+        bottom: 25%;
+        left: 0;
+        height: 50%;
+        width: 1px;
+    }
+}
+
+@media(max-width:768px){
+    .kn-index-col:after {
+        content: "";
+        background: #ccc;
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        height: 1px;
+        width: 50%;
+    }
+}
+
+.kn-index-pane-text {
+    padding: 1rem;
+}
+
+.kn-index-image {
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.33);
+}
+
+.kn-index-image-holder {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.kn-index-pane-title {
+    padding: 1rem;
+    padding-bottom: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2rem;
+    /* color-secondary-1-0 */
+    color: #076998;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto Condensed', sans-serif;
 }
@@ -81,18 +153,20 @@
 }
 
 .kn-index-header {
-    background-color: transparent;
+    /* background-color: transparent; */
+    background: #ffffff;
     margin-bottom: 0;
 }
 
 .card {
     box-shadow: 0 2px 3px 0 rgba(116,116,116,0.15);
-    border-radius: 0;
 }
 
 .card-title {
     /* color-secondary-1-1 */
     border-bottom: 2px solid #B2D0DE;
+    /* color-secondary-1-0 */
+    color: #076998;
 }
 
 .nav-link {
@@ -122,6 +196,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    /* background-color: #F5F5F5; */
 }
 .footer {
     position: absolute;
@@ -132,6 +207,6 @@ body {
     /* Set the fixed height of the footer here */
     height: 60px;
     line-height: 60px; /* Vertically center the text there */
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
 }
 /* ----------------------------------------------- */

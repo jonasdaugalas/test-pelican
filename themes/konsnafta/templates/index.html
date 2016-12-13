@@ -34,12 +34,20 @@
 {% endblock header %}
 
 {% block content %}
+
+
+<!-- {% for article in articles_page.object_list %} -->
+<!-- {% if (article.category|string == "index-cards") %} -->
 <div class="row">
     <div class="card">
         <div class="card-block">
             <div class="card-text">
+                <!-- {{article.content}} -->
             </div>
         </div>
     </div>
 </div>
+<!-- {% endif %} -->
+<!-- {% endfor %} -->
+
 {% endblock content %}

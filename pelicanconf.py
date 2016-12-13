@@ -8,7 +8,7 @@ SITEURL = ''
 DEFAULT_DATE = u'fs'
 
 THEME = 'themes/konsnafta'
-STATIC_PATHS = ['logo.png', 'logo-sm.png']
+STATIC_PATHS = ['logo.png', 'logo-sm.png', 'img']
 
 PATH = 'content'
 

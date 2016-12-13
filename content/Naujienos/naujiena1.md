@@ -161,11 +161,10 @@ Some text to show that the reference links can follow later.
 [link text itself]: http://www.reddit.com
 
 ## Paveikslai
-
 ```
-![something about image](../konsnafta-horiz.png)
+![something about image](../logo.png)
 ```
-![something about image](../konsnafta-horiz.png)
+![something about image](../logo.png)
 
 ## Lentelės
 

@@ -9,7 +9,7 @@
 
 {% block content %}
 <div class="row">
-    <div class="card">
+    <div class="card col-xs-12">
         <div class="card-block">
             <h1 class="card-title">
                 {{ page.title }}
@@ -20,4 +20,12 @@
         </div>
     </div>
 </div>
+
+<script>
+ var images, i;
+ images = document.getElementsByTagName('img');
+ for (i=0;i<images.length;i++) {
+     images[i].className = 'article-image rounded mx-auto d-bloc';
+ }
+</script>
 {% endblock %}
